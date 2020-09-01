@@ -597,7 +597,7 @@ a>code {
 kbd {
     padding: .2rem .4rem;
     font-size: 90%;
-    color: #fff;
+    color: rgb(59, 59, 59);
     background-color: #212529;
     border-radius: .2rem
 }

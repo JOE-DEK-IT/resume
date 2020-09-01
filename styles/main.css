@@ -49,7 +49,7 @@
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
   margin-right: 20px;
-  background: rgba(44, 44, 44, 0.2);
+  background: rgb(212, 211, 211);
 }
 
 .bootstrap-switch .bootstrap-switch-container {
@@ -72,7 +72,7 @@
   cursor: pointer;
   display: inline-block !important;
   height: 100%;
-  color: #fff;
+  color: rgb(255, 255, 255);
   padding: 6px 12px;
   font-size: 11px;
   text-indent: -5px;
@@ -253,7 +253,7 @@
 }
 
 .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-label:before {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-red ~ .bootstrap-switch-default {
@@ -281,7 +281,7 @@
 .bootstrap-switch.bootstrap-switch-off .bootstrap-switch-blue,
 .bootstrap-switch.bootstrap-switch-off .bootstrap-switch-orange,
 .bootstrap-switch.bootstrap-switch-off .bootstrap-switch-green {
-  background-color: #E3E3E3;
+  background-color: #d6d5d5;
 }
 
 .bootstrap-switch-off .bootstrap-switch-handle-on {
@@ -292,7 +292,7 @@
   opacity: 0;
 }
 
-/*! nouislider - 9.1.0 - 2016-12-10 16:00:32 */
+
 /* Functional styling;
  * These styles are required for noUiSlider to function.
  * You don't need to change these rules to apply your design.
@@ -370,7 +370,7 @@
 
 .noUi-horizontal .noUi-handle {
   border-radius: 50%;
-  background-color: #FFFFFF;
+  background-color: #080808;
   -webkit-box-shadow: 0 1px 13px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 1px 13px 0 rgba(0, 0, 0, 0.2);
   height: 15px;
@@ -419,12 +419,16 @@
   border-radius: 3px;
   background: #FFF;
   cursor: default;
-  -webkit-box-shadow: inset 0 0 1px #FFF, inset 0 1px 7px #EBEBEB, 0 3px 6px -3px #BBB;
-          box-shadow: inset 0 0 1px #FFF, inset 0 1px 7px #EBEBEB, 0 3px 6px -3px #BBB;
+  -webkit-box-shadow: inset 0 0 1px #FFF,
+ inset 0 1px 7px #EBEBEB,
+ 0 3px 6px -3px #BBB;
+          box-shadow: inset 0 0 1px #FFF,
+ inset 0 1px 7px #EBEBEB,
+ 0 3px 6px -3px #BBB;
   -webkit-transition: 300ms ease 0s;
   -moz-transition: 300ms ease 0s;
   -ms-transition: 300ms ease 0s;
-  -o-transform: 300ms ease 0s;
+  -o-transforms: 300ms ease 0s;
   transition: 300ms ease 0s;
 }
 
@@ -574,7 +578,7 @@
 }
 
 .slider.slider-neutral .noUi-connect, .slider.slider-neutral.noUi-connect {
-  background-color: #FFFFFF;
+  background-color: #e4e4e4;
 }
 
 .slider.slider-neutral.noUi-target {
@@ -2594,16 +2598,16 @@ textarea.form-control:focus, textarea.form-control:active {
 }
 
 .progress-container.progress-primary .progress {
-  background: rgba(55, 140, 63, 0.4);
+  background: rgba(182, 182, 182, 0.4);
 }
 
 .progress-container.progress-primary .progress-bar {
-  background: #378C3F;
+  background: rgb(255, 145, 0);
 }
 
 .progress-container.progress-primary .progress-value,
 .progress-container.progress-primary .progress-badge {
-  color: #378C3F;
+  color: #000000;
 }
 
 .progress-container.progress-info .progress {
@@ -3365,7 +3369,7 @@ body {
   background-color: transparent !important;
   -webkit-box-shadow: none;
           box-shadow: none;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-top: 20px;
 }
 
@@ -3386,7 +3390,7 @@ body {
 .navbar.bg-white:not(.navbar-transparent) .nav-item .nav-link:not(.btn):focus,
 .navbar.bg-white:not(.navbar-transparent) .nav-item .nav-link:not(.btn):hover,
 .navbar.bg-white:not(.navbar-transparent) .nav-item .nav-link:not(.btn):active {
-  background-color: rgba(222, 222, 222, 0.3);
+  background-color: rgba(221, 221, 221, 0.3);
 }
 
 .navbar.bg-white:not(.navbar-transparent) .logo-container {
@@ -3398,7 +3402,7 @@ body {
 }
 
 .bg-primary {
-  background-color: #378C3F !important;
+  background-color: #002f80 !important;
 }
 
 .bg-info {
@@ -3476,11 +3480,11 @@ body {
 }
 
 .dropdown-menu.dropdown-primary {
-  background-color: #33813a;
+  background-color: #333881;
 }
 
 .dropdown-menu.dropdown-primary:before {
-  color: #33813a;
+  color: #334881;
 }
 
 .dropdown-menu.dropdown-primary .dropdown-header:not([href]):not([tabindex]) {
@@ -3928,7 +3932,7 @@ Created using IcoMoon - icomoon.io
   display: inline-block;
   font: normal normal normal 14px/1 'Nucleo Outline';
   font-size: inherit;
-  speak: none;
+  speak-as: none;
   text-transform: none;
   /* Better Font Rendering */
   -webkit-font-smoothing: antialiased;
@@ -4635,7 +4639,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .card[data-background-color="orange"] {
-  background-color: #378C3F;
+  background-color: #fff5f5;
 }
 
 .card[data-background-color="red"] {
@@ -4733,7 +4737,7 @@ Created using IcoMoon - icomoon.io
 
 .footer nav {
   display: inline-block;
-  float: left;
+  float: none;
 }
 
 .footer ul {
@@ -5141,7 +5145,7 @@ Created using IcoMoon - icomoon.io
   background-position: center center;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  
 }
 
 .page-header footer {
@@ -5192,7 +5196,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .page-header:before {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.13);
 }
 
 .page-header[filter-color="orange"] {
@@ -5224,7 +5228,7 @@ Created using IcoMoon - icomoon.io
   background-position: center center;
   background-size: cover;
   -webkit-box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 10px 25px 0px hsla(0, 0%, 0%, 0.3);
   border-radius: .25rem;
 }
 
@@ -5608,16 +5612,16 @@ Created using IcoMoon - icomoon.io
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
   }
   .sidebar-collapse .navbar-collapse:before {
-    background: #378C3F;
+    background: #116419;
     /* For browsers that do not support gradients */
     /* For Safari 5.1 to 6.0 */
     /* For Opera 11.1 to 12.0 */
     /* For Firefox 3.6 to 15 */
-    background: -webkit-gradient(linear, left top, left bottom, from(#378C3F), color-stop(80%, #000));
-    background: linear-gradient(#378C3F 0%, #000 80%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#1f6826), color-stop(10%, #000));
+    background: linear-gradient(#002f96 0%, #000 90%);
     /* Standard syntax (must be last) */
-    opacity: 0.76;
-    filter: alpha(opacity=76);
+    opacity: 0.95;
+    filter: alpha(opacity=0.95);
     display: block;
     content: "";
     position: absolute;
@@ -6323,16 +6327,17 @@ Created using IcoMoon - icomoon.io
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
   }
   .burger-menu .navbar-collapse:before {
-    background: #378C3F;
+    background:(#002f96 0%, #000 90%);
+    ;
     /* For browsers that do not support gradients */
     /* For Safari 5.1 to 6.0 */
     /* For Opera 11.1 to 12.0 */
     /* For Firefox 3.6 to 15 */
-    background: -webkit-gradient(linear, left top, left bottom, from(#378C3F), color-stop(80%, #000));
-    background: linear-gradient(#378C3F 0%, #000 80%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#002f96), color-stop(80%, #000));
+    background: linear-gradient(#002f96 0%, #000 80%);
     /* Standard syntax (must be last) */
     opacity: 0.76;
-    filter: alpha(opacity=76);
+    filter: alpha(opacity=0.76);
     display: block;
     content: "";
     position: absolute;
@@ -7180,7 +7185,7 @@ Created using IcoMoon - icomoon.io
   padding-top: 60px;
   padding-right: 0;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
 }
 
 /* References Style */
